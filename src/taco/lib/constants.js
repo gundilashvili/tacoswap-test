@@ -170,6 +170,45 @@ export const supportedPools = [
     icon: '🎮'
   },
   {
+    pid: 3,
+    lpAddresses: {
+      1: '0xc3d03e4f041fd4cd388c549ee2a29a9e5075882f',
+    },
+    tokenAddresses: {
+      1: '0x6b175474e89094c44da98b954eedeac495271d0f',
+    },
+    name: 'DAI-ETH SushiSwap',
+    symbol: 'DAI-ETH SLP',
+    tokenSymbol: 'DAI',
+    icon: '🦆',
+  },
+  {
+    pid: 4,
+    lpAddresses: {
+      1: '0x795065dCc9f64b5614C407a6EFDC400DA6221FB0',
+    },
+    tokenAddresses: {
+      1: '0x6b3595068778dd592e39a122f4f5a5cf09c90fe2',
+    },
+    name: 'SUSHI-ETH SushiSwap',
+    symbol: 'SUSHI-ETH SLP',
+    tokenSymbol: 'SUSHI',
+    icon: '🍣',
+  },
+  {
+    pid: 5,
+    lpAddresses: {
+      1: '0x06da0fd433c1a5d7a4faa01111c044910a184553',
+    },
+    tokenAddresses: {
+      1: '0xdAC17F958D2ee523a2206206994597C13D831ec7',
+    },
+    name: 'USDT-ETH SushiSwap',
+    symbol: 'USDT-ETH SLP',
+    tokenSymbol: 'USDT',
+    icon: '🦑',
+  },
+  {
     pid: 14,
     lpAddresses: {
       1: '0xa2107fa5b38d9bbd2c461d6edf11b11a50f6b974',
@@ -208,45 +247,6 @@ export const supportedPools = [
     tokenSymbol: 'NEXO',
     icon: '📘',
   },
-  {
-    pid: 3,
-    lpAddresses: {
-      1: '0xc3d03e4f041fd4cd388c549ee2a29a9e5075882f',
-    },
-    tokenAddresses: {
-      1: '0x6b175474e89094c44da98b954eedeac495271d0f',
-    },
-    name: 'DAI-ETH SushiSwap',
-    symbol: 'DAI-ETH SLP',
-    tokenSymbol: 'DAI',
-    icon: '🦆',
-  },
-  {
-    pid: 4,
-    lpAddresses: {
-      1: '0x795065dCc9f64b5614C407a6EFDC400DA6221FB0',
-    },
-    tokenAddresses: {
-      1: '0x6b3595068778dd592e39a122f4f5a5cf09c90fe2',
-    },
-    name: 'SUSHI-ETH SushiSwap',
-    symbol: 'SUSHI-ETH SLP',
-    tokenSymbol: 'SUSHI',
-    icon: '🍣',
-  },
-  {
-    pid: 5,
-    lpAddresses: {
-      1: '0x06da0fd433c1a5d7a4faa01111c044910a184553',
-    },
-    tokenAddresses: {
-      1: '0xdAC17F958D2ee523a2206206994597C13D831ec7',
-    },
-    name: 'USDT-ETH SushiSwap',
-    symbol: 'USDT-ETH SLP',
-    tokenSymbol: 'USDT',
-    icon: '🦑',
-  }
   
  
  
