@@ -1,0 +1,33 @@
+html {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+body {
+  background-color: #fff0de;
+  margin: 0;
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  background: url("./assets/img/circle.png") left top -20px no-repeat,
+    url("./assets/img/bottomCircle.png") right bottom -20px no-repeat,
+    url("./assets/img/lines.png") right 130px top 150px no-repeat,
+    url("./assets/img/leftLines.png") left 60px top 700px no-repeat,
+    url("./assets/img/leftCircles.png") left 100px top 470px no-repeat,
+    url("./assets/img/rightCircles.png") right 225px top 100px no-repeat,
+    url("./assets/img/bottomLines.png") left 120px bottom 350px no-repeat,
+    url("./assets/img/Frame.png") left top no-repeat, url("./assets/img/bottomFrame.png") right -100px bottom no-repeat;
+  overflow-y: scroll;
+  height: 100%;
+  width: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
